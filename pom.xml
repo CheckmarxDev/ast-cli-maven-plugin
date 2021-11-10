@@ -10,7 +10,13 @@
     <packaging>maven-plugin</packaging>
 
     <name>ast-cli-maven-plugin Maven Mojo</name>
+    <description>Checkmarx AST ClI Maven Plugin</description>
     <url>https://checkmarx.com</url>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -95,8 +101,41 @@
         </plugins>
     </build>
 
-    <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-    </properties>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
+
+    <licenses>
+        <license>
+            <name>Apache 2.0 License</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Checkmarx</name>
+        <url>https://www.checkmarx.com/</url>
+    </organization>
+
+    <scm>
+        <connection>scm:git:git://github.com/CheckmarxDev/ast-cli-maven-plugin.git</connection>
+        <developerConnection>scm:git:ssh://github.com/CheckmarxDev/ast-cli-maven-plugin.git</developerConnection>
+        <url>https://github.com/CheckmarxDev/ast-cli-maven-plugin/tree/master</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Checkmarx AST Integrations Team</name>
+            <email>support@checkmarx.com</email>
+            <organization>Checkmarx</organization>
+            <organizationUrl>https://www.checkmarx.com/</organizationUrl>
+        </developer>
+    </developers>
 </project>
