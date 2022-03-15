@@ -5,16 +5,10 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
 
+<img src="https://raw.githubusercontent.com/Checkmarx/ci-cd-integrations/main/.images/banner.png">
+<br />
+<div align="center">
 
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -23,11 +17,11 @@
 
 
 
-<!-- PROJECT LOGO -->
+</div>
 <br />
 <p align="center">
-  <a href="">
-    <img src="logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/CheckmarxDev/ast-cli-maven-plugin">
+    <img src="https://raw.githubusercontent.com/Checkmarx/ci-cd-integrations/main/.images/logo.png" alt="Logo" width="80" height="80" />
   </a>
 
 
@@ -134,8 +128,9 @@ Checkmarx - AST Integrations Team
 
 Project Link: [https://github.com/CheckmarxDev/ast-cli-maven-plugin](https://github.com/CheckmarxDev/ast-cli-maven-plugin)
 
+Find more integrations from our team [here](https://github.com/Checkmarx/ci-cd-integrations#checkmarx-ast-integrations)
 
-© 2021 Checkmarx Ltd. All Rights Reserved.
+© 2022 Checkmarx Ltd. All Rights Reserved.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
