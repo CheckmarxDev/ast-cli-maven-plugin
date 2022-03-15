@@ -134,14 +134,13 @@ Find more integrations from our team [here](https://github.com/Checkmarx/ci-cd-i
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/CheckmarxDev/ast-cli-maven-plugin.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/CheckmarxDev/ast-cli-maven-plugin.svg
 [contributors-url]: https://github.com/CheckmarxDev/ast-cli-maven-plugin/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/CheckmarxDev/ast-cli-maven-plugin.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/CheckmarxDev/ast-cli-maven-plugin.svg
 [forks-url]: https://github.com/CheckmarxDev/ast-cli-maven-plugin/network/members
-[stars-shield]: https://img.shields.io/github/stars/CheckmarxDev/ast-cli-maven-plugin.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/CheckmarxDev/ast-cli-maven-plugin.svg
 [stars-url]: https://github.com/CheckmarxDev/ast-cli-maven-plugin/stargazers
-[issues-shield]: https://img.shields.io/github/issues/CheckmarxDev/ast-cli-maven-plugin.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/CheckmarxDev/ast-cli-maven-plugin.svg
 [issues-url]: https://github.com/CheckmarxDev/ast-cli-maven-plugin/issues
-[license-shield]: https://img.shields.io/github/license/CheckmarxDev/ast-cli-maven-plugin.svg?style=flat-square
+[license-shield]: https://img.shields.io/github/license/CheckmarxDev/ast-cli-maven-plugin.svg
 [license-url]: https://github.com/CheckmarxDev/ast-cli-maven-plugin/blob/master/LICENSE
-[product-screenshot]: images/screenshot.png
