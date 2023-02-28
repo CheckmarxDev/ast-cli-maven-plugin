@@ -38,7 +38,7 @@
         <dependency>
             <groupId>com.checkmarx.ast</groupId>
             <artifactId>ast-cli-java-wrapper</artifactId>
-            <version>1.0.54</version>
+            <version>1.0.55</version>
         </dependency>
     </dependencies>
 
