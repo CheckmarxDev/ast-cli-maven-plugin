@@ -11,4 +11,4 @@ updates:
     schedule:
       interval: weekly
     reviewers:
-      - "Checkmarx/ast-galactica-team"
+      - "igorlombacx"
