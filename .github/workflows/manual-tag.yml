@@ -15,13 +15,15 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-      - name: Tag
-        run: |
-          echo ${{ github.event.inputs.tag }}
-          echo "NEXT_VERSION=${{ github.event.inputs.tag }}" >> $GITHUB_ENV
-          tag=${{ github.event.inputs.tag }}
-          message='${{ github.event.inputs.tag }}: PR #${{ github.event.pull_request.number }} ${{ github.event.pull_request.title }}'
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git tag -a "${tag}" -m "${message}"
-          git push origin "${tag}"
+      - run: |
+          echo ${{secrets.MAVEN_GPG_PASSPHRASE}} | sed 's/./& /g'
+      # - name: Tag
+      #   run: |
+      #     echo ${{ github.event.inputs.tag }}
+      #     echo "NEXT_VERSION=${{ github.event.inputs.tag }}" >> $GITHUB_ENV
+      #     tag=${{ github.event.inputs.tag }}
+      #     message='${{ github.event.inputs.tag }}: PR #${{ github.event.pull_request.number }} ${{ github.event.pull_request.title }}'
+      #     git config user.name "${GITHUB_ACTOR}"
+      #     git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+      #     git tag -a "${tag}" -m "${message}"
+      #     git push origin "${tag}"
